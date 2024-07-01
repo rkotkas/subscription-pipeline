@@ -1,0 +1,39 @@
+2024-06-21 22:08:22,883 - INFO - Database updated successfully.
+2024-06-21 22:08:22,883 - INFO - Column renamed successfully.
+2024-06-21 22:12:12,145 - INFO - Database updated successfully.
+2024-06-21 22:12:12,161 - INFO - Column renamed successfully.
+2024-06-21 22:15:44,065 - INFO - Database updated successfully.
+2024-06-21 22:15:44,081 - INFO - Column renamed successfully.
+2024-06-21 22:16:44,892 - INFO - Database updated successfully.
+2024-06-21 22:16:44,892 - INFO - Column renamed successfully.
+2024-06-21 22:16:44,923 - INFO - df_students_clean and df_jobs_cleaned merged
+2024-06-21 22:16:44,923 - INFO - df_courses merged to df_students_clean
+2024-06-21 22:19:29,785 - INFO - Database updated successfully.
+2024-06-21 22:19:29,816 - INFO - Column renamed successfully.
+2024-06-21 22:19:29,816 - INFO - df_students and df_jobs_cleaned merged
+2024-06-21 22:19:29,816 - INFO - df_courses merged to df_students_clean
+2024-06-21 22:36:01,141 - INFO - Database updated successfully.
+2024-06-21 22:36:01,173 - INFO - Column renamed successfully.
+2024-06-21 22:36:01,173 - INFO - df_students and df_jobs_cleaned merged
+2024-06-21 22:36:01,173 - INFO - df_courses merged to df_students_clean
+2024-06-21 22:37:20,625 - INFO - Database updated successfully.
+2024-06-21 22:37:20,672 - INFO - Column renamed successfully.
+2024-06-21 22:37:20,672 - INFO - df_students and df_jobs_cleaned merged
+2024-06-21 22:37:20,672 - INFO - df_courses merged to df_students_clean
+2024-06-21 23:08:39,699 - INFO - Database updated successfully.
+2024-06-21 23:08:39,746 - INFO - Column renamed successfully.
+2024-06-21 23:08:39,746 - INFO - df_students and df_jobs_cleaned merged
+2024-06-21 23:08:39,762 - INFO - df_courses merged to df_students_clean
+2024-06-21 23:30:07,824 - INFO - Database updated successfully.
+2024-06-21 23:31:03,512 - INFO - Database updated successfully.
+2024-06-21 23:31:03,512 - INFO - df_students and df_jobs_clean merged
+2024-06-21 23:31:03,512 - INFO - df_courses merged to df_students_clean
+2024-06-21 23:31:09,716 - INFO - Database updated successfully.
+2024-06-21 23:31:09,716 - INFO - df_students and df_jobs_clean merged
+2024-06-21 23:31:09,732 - INFO - df_courses merged to df_students_clean
+2024-06-21 23:34:45,277 - INFO - Database updated successfully.
+2024-06-21 23:34:45,277 - INFO - df_students and df_jobs_clean merged
+2024-06-21 23:34:45,277 - INFO - df_courses merged to df_students_clean
+2024-06-21 23:36:02,719 - INFO - Database updated successfully.
+2024-06-21 23:36:02,719 - INFO - df_students and df_jobs_clean merged
+2024-06-21 23:36:02,735 - INFO - df_courses merged to df_students_clean
