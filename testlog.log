@@ -1,0 +1,122 @@
+2024-07-10 13:20:37,537 - INFO - Setup for tests completed
+2024-07-10 13:20:37,601 - INFO - Setup for tests completed
+2024-07-10 13:20:37,604 - INFO - Starting test: test_check_for_updates_no_change
+2024-07-10 13:20:37,605 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,605 - INFO - Current row counts (mocked): {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,608 - INFO - Updates found: False
+2024-07-10 13:20:37,642 - INFO - Setup for tests completed
+2024-07-10 13:20:37,643 - INFO - Starting test: test_check_for_updates_with_change
+2024-07-10 13:20:37,643 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,646 - INFO - Updates found: True
+2024-07-10 13:20:37,684 - INFO - Setup for tests completed
+2024-07-10 13:20:37,687 - INFO - Connection successful!
+2024-07-10 13:20:37,725 - INFO - Setup for tests completed
+2024-07-10 13:20:37,972 - INFO - df_jobs duplicates: 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6    False
+7    False
+8    False
+9    False
+dtype: bool
+2024-07-10 13:20:38,001 - INFO - Setup for tests completed
+2024-07-10 13:20:38,093 - INFO - dataframe df_students:     job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,127 - INFO - Setup for tests completed
+2024-07-10 13:20:38,279 - INFO - Setup for tests completed
+2024-07-10 13:20:38,432 - INFO - NaN dropped count: uuid                      0
+name                      0
+dob                       0
+sex                       0
+contact_info              0
+job_id                    0
+num_course_taken          0
+current_career_path_id    0
+time_spent_hrs            0
+dtype: int64
+2024-07-10 13:20:38,477 - INFO - Setup for tests completed
+2024-07-10 13:20:38,568 - INFO - dataframe df_students:     uuid             name         dob sex  ... job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F  ...    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M  ...    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  ...    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F  ...    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  ...    7.0             14.0                    3.0           5.64
+
+[5 rows x 9 columns]
+2024-07-10 13:20:38,643 - INFO - Setup for tests completed
+2024-07-10 13:20:38,737 - INFO - Table: cademycode_courses
+2024-07-10 13:20:38,737 - INFO - Table: cademycode_student_jobs
+2024-07-10 13:20:38,737 - INFO - Table: cademycode_students
+2024-07-10 13:20:38,738 - INFO - Table: test_table
+2024-07-10 13:20:38,783 - INFO - Setup for tests completed
+2024-07-10 13:20:38,795 - INFO - table names: ['cademycode_courses', 'cademycode_student_jobs', 'cademycode_students', 'test_table']
+2024-07-10 13:20:38,834 - INFO - Setup for tests completed
+2024-07-10 13:20:39,006 - INFO - Setup for tests completed
+2024-07-10 14:17:18,828 - INFO - Setup for tests completed
+2024-07-10 14:17:18,884 - INFO - Setup for tests completed
+2024-07-10 14:17:18,887 - INFO - Starting test: test_check_for_updates_no_change
+2024-07-10 14:17:18,888 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,888 - INFO - Current row counts (mocked): {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,890 - INFO - Updates found: False
+2024-07-10 14:17:18,940 - INFO - Setup for tests completed
+2024-07-10 14:17:18,941 - INFO - Starting test: test_check_for_updates_with_change
+2024-07-10 14:17:18,942 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,943 - INFO - Updates found: True
+2024-07-10 14:17:18,991 - INFO - Setup for tests completed
+2024-07-10 14:17:18,992 - INFO - Connection successful!
+2024-07-10 14:17:19,054 - INFO - Setup for tests completed
+2024-07-10 14:17:19,314 - INFO - df_jobs duplicates: 0    False
+1    False
+2    False
+3    False
+4    False
+5    False
+6    False
+7    False
+8    False
+9    False
+dtype: bool
+2024-07-10 14:17:19,365 - INFO - Setup for tests completed
+2024-07-10 14:17:19,534 - INFO - dataframe df_students:     job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,594 - INFO - Setup for tests completed
+2024-07-10 14:17:19,815 - INFO - Setup for tests completed
+2024-07-10 14:17:20,007 - INFO - NaN dropped count: uuid                      0
+name                      0
+dob                       0
+sex                       0
+contact_info              0
+job_id                    0
+num_course_taken          0
+current_career_path_id    0
+time_spent_hrs            0
+dtype: int64
+2024-07-10 14:17:20,062 - INFO - Setup for tests completed
+2024-07-10 14:17:20,193 - INFO - dataframe df_students:     uuid             name         dob sex  ... job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F  ...      7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M  ...      7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  ...      7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F  ...      6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  ...      7                14                       3            5.64
+
+[5 rows x 9 columns]
+2024-07-10 14:17:20,264 - INFO - Setup for tests completed
+2024-07-10 14:17:20,370 - INFO - Table: cademycode_courses
+2024-07-10 14:17:20,370 - INFO - Table: cademycode_student_jobs
+2024-07-10 14:17:20,370 - INFO - Table: cademycode_students
+2024-07-10 14:17:20,370 - INFO - Table: test_table
+2024-07-10 14:17:20,427 - INFO - Setup for tests completed
+2024-07-10 14:17:20,435 - INFO - table names: ['cademycode_courses', 'cademycode_student_jobs', 'cademycode_students', 'test_table']
+2024-07-10 14:17:20,491 - INFO - Setup for tests completed
+2024-07-10 14:17:20,731 - INFO - Setup for tests completed

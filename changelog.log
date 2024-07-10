@@ -1,39 +1,1480 @@
-2024-06-21 22:08:22,883 - INFO - Database updated successfully.
-2024-06-21 22:08:22,883 - INFO - Column renamed successfully.
-2024-06-21 22:12:12,145 - INFO - Database updated successfully.
-2024-06-21 22:12:12,161 - INFO - Column renamed successfully.
-2024-06-21 22:15:44,065 - INFO - Database updated successfully.
-2024-06-21 22:15:44,081 - INFO - Column renamed successfully.
-2024-06-21 22:16:44,892 - INFO - Database updated successfully.
-2024-06-21 22:16:44,892 - INFO - Column renamed successfully.
-2024-06-21 22:16:44,923 - INFO - df_students_clean and df_jobs_cleaned merged
-2024-06-21 22:16:44,923 - INFO - df_courses merged to df_students_clean
-2024-06-21 22:19:29,785 - INFO - Database updated successfully.
-2024-06-21 22:19:29,816 - INFO - Column renamed successfully.
-2024-06-21 22:19:29,816 - INFO - df_students and df_jobs_cleaned merged
-2024-06-21 22:19:29,816 - INFO - df_courses merged to df_students_clean
-2024-06-21 22:36:01,141 - INFO - Database updated successfully.
-2024-06-21 22:36:01,173 - INFO - Column renamed successfully.
-2024-06-21 22:36:01,173 - INFO - df_students and df_jobs_cleaned merged
-2024-06-21 22:36:01,173 - INFO - df_courses merged to df_students_clean
-2024-06-21 22:37:20,625 - INFO - Database updated successfully.
-2024-06-21 22:37:20,672 - INFO - Column renamed successfully.
-2024-06-21 22:37:20,672 - INFO - df_students and df_jobs_cleaned merged
-2024-06-21 22:37:20,672 - INFO - df_courses merged to df_students_clean
-2024-06-21 23:08:39,699 - INFO - Database updated successfully.
-2024-06-21 23:08:39,746 - INFO - Column renamed successfully.
-2024-06-21 23:08:39,746 - INFO - df_students and df_jobs_cleaned merged
-2024-06-21 23:08:39,762 - INFO - df_courses merged to df_students_clean
-2024-06-21 23:30:07,824 - INFO - Database updated successfully.
-2024-06-21 23:31:03,512 - INFO - Database updated successfully.
-2024-06-21 23:31:03,512 - INFO - df_students and df_jobs_clean merged
-2024-06-21 23:31:03,512 - INFO - df_courses merged to df_students_clean
-2024-06-21 23:31:09,716 - INFO - Database updated successfully.
-2024-06-21 23:31:09,716 - INFO - df_students and df_jobs_clean merged
-2024-06-21 23:31:09,732 - INFO - df_courses merged to df_students_clean
-2024-06-21 23:34:45,277 - INFO - Database updated successfully.
-2024-06-21 23:34:45,277 - INFO - df_students and df_jobs_clean merged
-2024-06-21 23:34:45,277 - INFO - df_courses merged to df_students_clean
-2024-06-21 23:36:02,719 - INFO - Database updated successfully.
-2024-06-21 23:36:02,719 - INFO - df_students and df_jobs_clean merged
-2024-06-21 23:36:02,735 - INFO - df_courses merged to df_students_clean
+2024-07-10 13:20:37,541 - INFO - Checking for updates...
+2024-07-10 13:20:37,541 - INFO - Checking for updates...
+2024-07-10 13:20:37,542 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,542 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,542 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30, 'new_table': 5}
+2024-07-10 13:20:37,542 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30, 'new_table': 5}
+2024-07-10 13:20:37,544 - INFO - Update found in table 'new_table': last count = None, current count = 5
+2024-07-10 13:20:37,544 - INFO - Update found in table 'new_table': last count = None, current count = 5
+2024-07-10 13:20:37,606 - INFO - Checking for updates...
+2024-07-10 13:20:37,606 - INFO - Checking for updates...
+2024-07-10 13:20:37,607 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,607 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,607 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,607 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,608 - INFO - No updates found.
+2024-07-10 13:20:37,608 - INFO - No updates found.
+2024-07-10 13:20:37,644 - INFO - Checking for updates...
+2024-07-10 13:20:37,644 - INFO - Checking for updates...
+2024-07-10 13:20:37,644 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,644 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,645 - INFO - Current row counts: {'cademycode_courses': 11, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,645 - INFO - Current row counts: {'cademycode_courses': 11, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 13:20:37,645 - INFO - Update found in table 'cademycode_courses': last count = 10, current count = 11
+2024-07-10 13:20:37,645 - INFO - Update found in table 'cademycode_courses': last count = 10, current count = 11
+2024-07-10 13:20:37,726 - INFO - Tables in the database:
+2024-07-10 13:20:37,726 - INFO - Tables in the database:
+2024-07-10 13:20:37,727 - INFO - cademycode_courses
+2024-07-10 13:20:37,727 - INFO - cademycode_courses
+2024-07-10 13:20:37,788 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:37,788 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:37,800 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:37,800 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:37,801 - INFO - cademycode_student_jobs
+2024-07-10 13:20:37,801 - INFO - cademycode_student_jobs
+2024-07-10 13:20:37,815 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:37,815 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:37,817 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:37,817 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:37,818 - INFO - cademycode_students
+2024-07-10 13:20:37,818 - INFO - cademycode_students
+2024-07-10 13:20:37,896 - INFO - Data from cademycode_students:
+2024-07-10 13:20:37,896 - INFO - Data from cademycode_students:
+2024-07-10 13:20:37,899 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:37,899 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:37,900 - INFO - test_table
+2024-07-10 13:20:37,900 - INFO - test_table
+2024-07-10 13:20:37,905 - INFO - Data from test_table:
+2024-07-10 13:20:37,905 - INFO - Data from test_table:
+2024-07-10 13:20:37,906 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:37,906 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:37,924 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:37,924 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:37,938 - INFO - NaN values dropped
+2024-07-10 13:20:37,938 - INFO - NaN values dropped
+2024-07-10 13:20:37,968 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:37,968 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:37,970 - INFO - Duplicates dropped
+2024-07-10 13:20:37,970 - INFO - Duplicates dropped
+2024-07-10 13:20:37,971 - INFO - Dataframes processing completed
+2024-07-10 13:20:37,971 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,002 - INFO - Tables in the database:
+2024-07-10 13:20:38,002 - INFO - Tables in the database:
+2024-07-10 13:20:38,002 - INFO - cademycode_courses
+2024-07-10 13:20:38,002 - INFO - cademycode_courses
+2024-07-10 13:20:38,011 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,011 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,013 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,013 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,014 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,014 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,022 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,022 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,024 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,024 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,024 - INFO - cademycode_students
+2024-07-10 13:20:38,024 - INFO - cademycode_students
+2024-07-10 13:20:38,071 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,071 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,075 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,075 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,075 - INFO - test_table
+2024-07-10 13:20:38,075 - INFO - test_table
+2024-07-10 13:20:38,081 - INFO - Data from test_table:
+2024-07-10 13:20:38,081 - INFO - Data from test_table:
+2024-07-10 13:20:38,083 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,083 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,127 - INFO - Tables in the database:
+2024-07-10 13:20:38,127 - INFO - Tables in the database:
+2024-07-10 13:20:38,129 - INFO - cademycode_courses
+2024-07-10 13:20:38,129 - INFO - cademycode_courses
+2024-07-10 13:20:38,136 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,136 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,137 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,137 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,138 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,138 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,144 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,144 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,145 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,145 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,145 - INFO - cademycode_students
+2024-07-10 13:20:38,145 - INFO - cademycode_students
+2024-07-10 13:20:38,193 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,193 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,196 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,196 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,197 - INFO - test_table
+2024-07-10 13:20:38,197 - INFO - test_table
+2024-07-10 13:20:38,203 - INFO - Data from test_table:
+2024-07-10 13:20:38,203 - INFO - Data from test_table:
+2024-07-10 13:20:38,204 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,204 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,216 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,216 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,218 - INFO - NaN values dropped
+2024-07-10 13:20:38,218 - INFO - NaN values dropped
+2024-07-10 13:20:38,233 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,233 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,234 - INFO - Duplicates dropped
+2024-07-10 13:20:38,234 - INFO - Duplicates dropped
+2024-07-10 13:20:38,235 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,235 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,281 - INFO - Tables in the database:
+2024-07-10 13:20:38,281 - INFO - Tables in the database:
+2024-07-10 13:20:38,281 - INFO - cademycode_courses
+2024-07-10 13:20:38,281 - INFO - cademycode_courses
+2024-07-10 13:20:38,297 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,297 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,301 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,301 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,302 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,302 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,309 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,309 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,311 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,311 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,311 - INFO - cademycode_students
+2024-07-10 13:20:38,311 - INFO - cademycode_students
+2024-07-10 13:20:38,386 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,386 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,389 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,389 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,390 - INFO - test_table
+2024-07-10 13:20:38,390 - INFO - test_table
+2024-07-10 13:20:38,396 - INFO - Data from test_table:
+2024-07-10 13:20:38,396 - INFO - Data from test_table:
+2024-07-10 13:20:38,397 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,397 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,408 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,408 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,411 - INFO - NaN values dropped
+2024-07-10 13:20:38,411 - INFO - NaN values dropped
+2024-07-10 13:20:38,426 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,426 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,428 - INFO - Duplicates dropped
+2024-07-10 13:20:38,428 - INFO - Duplicates dropped
+2024-07-10 13:20:38,428 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,428 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,479 - INFO - Tables in the database:
+2024-07-10 13:20:38,479 - INFO - Tables in the database:
+2024-07-10 13:20:38,479 - INFO - cademycode_courses
+2024-07-10 13:20:38,479 - INFO - cademycode_courses
+2024-07-10 13:20:38,487 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,487 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,490 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,490 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,490 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,490 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,495 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,495 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,497 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,497 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,498 - INFO - cademycode_students
+2024-07-10 13:20:38,498 - INFO - cademycode_students
+2024-07-10 13:20:38,545 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,545 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,548 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,548 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,548 - INFO - test_table
+2024-07-10 13:20:38,548 - INFO - test_table
+2024-07-10 13:20:38,554 - INFO - Data from test_table:
+2024-07-10 13:20:38,554 - INFO - Data from test_table:
+2024-07-10 13:20:38,554 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,554 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,645 - INFO - Tables in the database:
+2024-07-10 13:20:38,645 - INFO - Tables in the database:
+2024-07-10 13:20:38,647 - INFO - cademycode_courses
+2024-07-10 13:20:38,647 - INFO - cademycode_courses
+2024-07-10 13:20:38,656 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,656 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,659 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,659 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,660 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,660 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,670 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,670 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,672 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,672 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,673 - INFO - cademycode_students
+2024-07-10 13:20:38,673 - INFO - cademycode_students
+2024-07-10 13:20:38,725 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,725 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,729 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,729 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,730 - INFO - test_table
+2024-07-10 13:20:38,730 - INFO - test_table
+2024-07-10 13:20:38,734 - INFO - Data from test_table:
+2024-07-10 13:20:38,734 - INFO - Data from test_table:
+2024-07-10 13:20:38,736 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,736 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,835 - INFO - Tables in the database:
+2024-07-10 13:20:38,835 - INFO - Tables in the database:
+2024-07-10 13:20:38,837 - INFO - cademycode_courses
+2024-07-10 13:20:38,837 - INFO - cademycode_courses
+2024-07-10 13:20:38,848 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,848 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:38,851 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,851 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:38,852 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,852 - INFO - cademycode_student_jobs
+2024-07-10 13:20:38,860 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,860 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:38,862 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,862 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:38,862 - INFO - cademycode_students
+2024-07-10 13:20:38,862 - INFO - cademycode_students
+2024-07-10 13:20:38,905 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,905 - INFO - Data from cademycode_students:
+2024-07-10 13:20:38,909 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,909 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:38,909 - INFO - test_table
+2024-07-10 13:20:38,909 - INFO - test_table
+2024-07-10 13:20:38,914 - INFO - Data from test_table:
+2024-07-10 13:20:38,914 - INFO - Data from test_table:
+2024-07-10 13:20:38,915 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,915 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:38,928 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,928 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:38,931 - INFO - NaN values dropped
+2024-07-10 13:20:38,931 - INFO - NaN values dropped
+2024-07-10 13:20:38,948 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,948 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:38,949 - INFO - Duplicates dropped
+2024-07-10 13:20:38,949 - INFO - Duplicates dropped
+2024-07-10 13:20:38,950 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,950 - INFO - Dataframes processing completed
+2024-07-10 13:20:38,967 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:38,967 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:38,971 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:38,971 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:39,007 - INFO - Tables in the database:
+2024-07-10 13:20:39,007 - INFO - Tables in the database:
+2024-07-10 13:20:39,009 - INFO - cademycode_courses
+2024-07-10 13:20:39,009 - INFO - cademycode_courses
+2024-07-10 13:20:39,020 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:39,020 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:39,023 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:39,023 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:39,024 - INFO - cademycode_student_jobs
+2024-07-10 13:20:39,024 - INFO - cademycode_student_jobs
+2024-07-10 13:20:39,035 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:39,035 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:39,037 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:39,037 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:39,038 - INFO - cademycode_students
+2024-07-10 13:20:39,038 - INFO - cademycode_students
+2024-07-10 13:20:39,096 - INFO - Data from cademycode_students:
+2024-07-10 13:20:39,096 - INFO - Data from cademycode_students:
+2024-07-10 13:20:39,102 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:39,102 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:39,103 - INFO - test_table
+2024-07-10 13:20:39,103 - INFO - test_table
+2024-07-10 13:20:39,108 - INFO - Data from test_table:
+2024-07-10 13:20:39,108 - INFO - Data from test_table:
+2024-07-10 13:20:39,108 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:39,108 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 13:20:39,120 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:39,120 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:39,123 - INFO - NaN values dropped
+2024-07-10 13:20:39,123 - INFO - NaN values dropped
+2024-07-10 13:20:39,138 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:39,138 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:39,140 - INFO - Duplicates dropped
+2024-07-10 13:20:39,140 - INFO - Duplicates dropped
+2024-07-10 13:20:39,140 - INFO - Dataframes processing completed
+2024-07-10 13:20:39,140 - INFO - Dataframes processing completed
+2024-07-10 13:20:39,143 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:39,143 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:39,147 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:39,147 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:39,175 - INFO - Running pipeline...
+2024-07-10 13:20:39,175 - INFO - Running pipeline...
+2024-07-10 13:20:39,180 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 13:20:39,180 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 13:20:39,181 - INFO - Row count for table 'cademycode_student_jobs': 13
+2024-07-10 13:20:39,181 - INFO - Row count for table 'cademycode_student_jobs': 13
+2024-07-10 13:20:39,183 - INFO - Row count for table 'cademycode_students': 5000
+2024-07-10 13:20:39,183 - INFO - Row count for table 'cademycode_students': 5000
+2024-07-10 13:20:39,184 - INFO - Checking for updates...
+2024-07-10 13:20:39,184 - INFO - Checking for updates...
+2024-07-10 13:20:39,185 - INFO - Last row counts: {'cademycode_courses': 1, 'cademycode_student_jobs': 1, 'cademycode_students': 1}
+2024-07-10 13:20:39,185 - INFO - Last row counts: {'cademycode_courses': 1, 'cademycode_student_jobs': 1, 'cademycode_students': 1}
+2024-07-10 13:20:39,185 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 13, 'cademycode_students': 5000}
+2024-07-10 13:20:39,185 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 13, 'cademycode_students': 5000}
+2024-07-10 13:20:39,185 - INFO - Update found in table 'cademycode_courses': last count = 1, current count = 10
+2024-07-10 13:20:39,185 - INFO - Update found in table 'cademycode_courses': last count = 1, current count = 10
+2024-07-10 13:20:39,186 - INFO - Updates found in the database.
+2024-07-10 13:20:39,186 - INFO - Updates found in the database.
+2024-07-10 13:20:39,187 - INFO - Tables in the database:
+2024-07-10 13:20:39,187 - INFO - Tables in the database:
+2024-07-10 13:20:39,187 - INFO - cademycode_courses
+2024-07-10 13:20:39,187 - INFO - cademycode_courses
+2024-07-10 13:20:39,194 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:39,194 - INFO - Data from cademycode_courses:
+2024-07-10 13:20:39,196 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:39,196 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 13:20:39,197 - INFO - cademycode_student_jobs
+2024-07-10 13:20:39,197 - INFO - cademycode_student_jobs
+2024-07-10 13:20:39,202 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:39,202 - INFO - Data from cademycode_student_jobs:
+2024-07-10 13:20:39,204 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:39,204 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 13:20:39,204 - INFO - cademycode_students
+2024-07-10 13:20:39,204 - INFO - cademycode_students
+2024-07-10 13:20:39,280 - INFO - Data from cademycode_students:
+2024-07-10 13:20:39,280 - INFO - Data from cademycode_students:
+2024-07-10 13:20:39,288 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:39,288 - INFO -    uuid             name         dob sex                                                                                                     contact_info job_id num_course_taken current_career_path_id time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {'mailing_address': '303 N Timber Key, Irondale, Wisconsin, 84736', 'email': 'annabelle_avery9376@woohoo.com'}    7.0              6.0                    1.0           4.99
+1     2      Micah Rubio  1991-02-07   M                 {'mailing_address': '767 Crescent Fair, Shoals, Indiana, 37439', 'email': 'rubio6772@hmail.com'}    7.0              5.0                    8.0            4.4
+2     3       Hosea Dale  1989-12-07   M  {'mailing_address': 'P.O. Box 41269, St. Bonaventure, Virginia, 83637', 'email': 'hosea_dale8084@coldmail.com'}    7.0              8.0                    8.0           6.74
+3     4     Mariann Kirk  1988-07-31   F             {'mailing_address': '517 SE Wintergreen Isle, Lane, Arkansas, 82242', 'email': 'kirk4005@hmail.com'}    6.0              7.0                    9.0          12.31
+4     5  Lucio Alexander  1963-08-31   M  {'mailing_address': '18 Cinder Cliff, Doyles borough, Rhode Island, 73737', 'email': 'alexander9810@hmail.com'}    7.0             14.0                    3.0           5.64
+2024-07-10 13:20:39,303 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:39,303 - INFO - Dropping df_students NaN values uuid                        0
+name                        0
+dob                         0
+sex                         0
+contact_info                0
+job_id                      5
+num_course_taken          251
+current_career_path_id    471
+time_spent_hrs            471
+dtype: int64
+2024-07-10 13:20:39,307 - INFO - NaN values dropped
+2024-07-10 13:20:39,307 - INFO - NaN values dropped
+2024-07-10 13:20:39,322 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:39,322 - INFO - Dropping df_jobs duplicates 0     False
+1     False
+2     False
+3     False
+4     False
+5     False
+6     False
+7     False
+8     False
+9     False
+10     True
+11     True
+12     True
+dtype: bool
+2024-07-10 13:20:39,324 - INFO - Duplicates dropped
+2024-07-10 13:20:39,324 - INFO - Duplicates dropped
+2024-07-10 13:20:39,324 - INFO - Dataframes processing completed
+2024-07-10 13:20:39,324 - INFO - Dataframes processing completed
+2024-07-10 13:20:39,678 - INFO - Database updated successfully.
+2024-07-10 13:20:39,678 - INFO - Database updated successfully.
+2024-07-10 13:20:39,682 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 13:20:39,682 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 13:20:39,683 - INFO - Row count for table 'cademycode_student_jobs': 10
+2024-07-10 13:20:39,683 - INFO - Row count for table 'cademycode_student_jobs': 10
+2024-07-10 13:20:39,687 - INFO - Row count for table 'cademycode_students': 4293
+2024-07-10 13:20:39,687 - INFO - Row count for table 'cademycode_students': 4293
+2024-07-10 13:20:39,691 - INFO - Row count after changes: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 13:20:39,691 - INFO - Row count after changes: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 13:20:39,697 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:39,697 - INFO - df_students and df_jobs merged
+2024-07-10 13:20:39,703 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:39,703 - INFO - df_courses merged to merged_df
+2024-07-10 13:20:39,781 - INFO - Data processing and merging completed successfully.
+2024-07-10 13:20:39,781 - INFO - Data processing and merging completed successfully.
+2024-07-10 14:17:18,834 - INFO - Checking for updates...
+2024-07-10 14:17:18,834 - INFO - Checking for updates...
+2024-07-10 14:17:18,837 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,837 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,838 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30, 'new_table': 5}
+2024-07-10 14:17:18,838 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30, 'new_table': 5}
+2024-07-10 14:17:18,838 - INFO - Update found in table 'new_table': last count = None, current count = 5
+2024-07-10 14:17:18,838 - INFO - Update found in table 'new_table': last count = None, current count = 5
+2024-07-10 14:17:18,888 - INFO - Checking for updates...
+2024-07-10 14:17:18,888 - INFO - Checking for updates...
+2024-07-10 14:17:18,889 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,889 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,889 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,889 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,890 - INFO - No updates found.
+2024-07-10 14:17:18,890 - INFO - No updates found.
+2024-07-10 14:17:18,942 - INFO - Checking for updates...
+2024-07-10 14:17:18,942 - INFO - Checking for updates...
+2024-07-10 14:17:18,942 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,942 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,942 - INFO - Current row counts: {'cademycode_courses': 11, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,942 - INFO - Current row counts: {'cademycode_courses': 11, 'cademycode_student_jobs': 20, 'cademycode_students': 30}
+2024-07-10 14:17:18,943 - INFO - Update found in table 'cademycode_courses': last count = 10, current count = 11
+2024-07-10 14:17:18,943 - INFO - Update found in table 'cademycode_courses': last count = 10, current count = 11
+2024-07-10 14:17:19,057 - INFO - Tables in the database:
+2024-07-10 14:17:19,057 - INFO - Tables in the database:
+2024-07-10 14:17:19,058 - INFO - cademycode_courses
+2024-07-10 14:17:19,058 - INFO - cademycode_courses
+2024-07-10 14:17:19,110 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,110 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,120 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,120 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,121 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,121 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,129 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,129 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,137 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,137 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,138 - INFO - cademycode_students
+2024-07-10 14:17:19,138 - INFO - cademycode_students
+2024-07-10 14:17:19,232 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,232 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,242 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,242 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,243 - INFO - test_table
+2024-07-10 14:17:19,243 - INFO - test_table
+2024-07-10 14:17:19,262 - INFO - Data from test_table:
+2024-07-10 14:17:19,262 - INFO - Data from test_table:
+2024-07-10 14:17:19,265 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,265 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,277 - INFO - No NaN values found in df_students
+2024-07-10 14:17:19,277 - INFO - No NaN values found in df_students
+2024-07-10 14:17:19,309 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:19,309 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:19,310 - INFO - Dataframes processing completed
+2024-07-10 14:17:19,310 - INFO - Dataframes processing completed
+2024-07-10 14:17:19,368 - INFO - Tables in the database:
+2024-07-10 14:17:19,368 - INFO - Tables in the database:
+2024-07-10 14:17:19,368 - INFO - cademycode_courses
+2024-07-10 14:17:19,368 - INFO - cademycode_courses
+2024-07-10 14:17:19,376 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,376 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,379 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,379 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,379 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,379 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,404 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,404 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,407 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,407 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,407 - INFO - cademycode_students
+2024-07-10 14:17:19,407 - INFO - cademycode_students
+2024-07-10 14:17:19,484 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,484 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,492 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,492 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,493 - INFO - test_table
+2024-07-10 14:17:19,493 - INFO - test_table
+2024-07-10 14:17:19,518 - INFO - Data from test_table:
+2024-07-10 14:17:19,518 - INFO - Data from test_table:
+2024-07-10 14:17:19,520 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,520 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,595 - INFO - Tables in the database:
+2024-07-10 14:17:19,595 - INFO - Tables in the database:
+2024-07-10 14:17:19,596 - INFO - cademycode_courses
+2024-07-10 14:17:19,596 - INFO - cademycode_courses
+2024-07-10 14:17:19,605 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,605 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,607 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,607 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,607 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,607 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,620 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,620 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,623 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,623 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,624 - INFO - cademycode_students
+2024-07-10 14:17:19,624 - INFO - cademycode_students
+2024-07-10 14:17:19,688 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,688 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,703 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,703 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,705 - INFO - test_table
+2024-07-10 14:17:19,705 - INFO - test_table
+2024-07-10 14:17:19,725 - INFO - Data from test_table:
+2024-07-10 14:17:19,725 - INFO - Data from test_table:
+2024-07-10 14:17:19,726 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,726 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,735 - INFO - No NaN values found in df_students
+2024-07-10 14:17:19,735 - INFO - No NaN values found in df_students
+2024-07-10 14:17:19,756 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:19,756 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:19,757 - INFO - Dataframes processing completed
+2024-07-10 14:17:19,757 - INFO - Dataframes processing completed
+2024-07-10 14:17:19,817 - INFO - Tables in the database:
+2024-07-10 14:17:19,817 - INFO - Tables in the database:
+2024-07-10 14:17:19,818 - INFO - cademycode_courses
+2024-07-10 14:17:19,818 - INFO - cademycode_courses
+2024-07-10 14:17:19,828 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,828 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:19,835 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,835 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:19,837 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,837 - INFO - cademycode_student_jobs
+2024-07-10 14:17:19,866 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,866 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:19,870 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,870 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:19,871 - INFO - cademycode_students
+2024-07-10 14:17:19,871 - INFO - cademycode_students
+2024-07-10 14:17:19,951 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,951 - INFO - Data from cademycode_students:
+2024-07-10 14:17:19,973 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,973 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:19,974 - INFO - test_table
+2024-07-10 14:17:19,974 - INFO - test_table
+2024-07-10 14:17:19,989 - INFO - Data from test_table:
+2024-07-10 14:17:19,989 - INFO - Data from test_table:
+2024-07-10 14:17:19,990 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,990 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:19,995 - INFO - No NaN values found in df_students
+2024-07-10 14:17:19,995 - INFO - No NaN values found in df_students
+2024-07-10 14:17:20,004 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,004 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,005 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,005 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,064 - INFO - Tables in the database:
+2024-07-10 14:17:20,064 - INFO - Tables in the database:
+2024-07-10 14:17:20,065 - INFO - cademycode_courses
+2024-07-10 14:17:20,065 - INFO - cademycode_courses
+2024-07-10 14:17:20,075 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,075 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,076 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,076 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,077 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,077 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,093 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,093 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,097 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,097 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,098 - INFO - cademycode_students
+2024-07-10 14:17:20,098 - INFO - cademycode_students
+2024-07-10 14:17:20,146 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,146 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,152 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,152 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,153 - INFO - test_table
+2024-07-10 14:17:20,153 - INFO - test_table
+2024-07-10 14:17:20,159 - INFO - Data from test_table:
+2024-07-10 14:17:20,159 - INFO - Data from test_table:
+2024-07-10 14:17:20,160 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,160 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,265 - INFO - Tables in the database:
+2024-07-10 14:17:20,265 - INFO - Tables in the database:
+2024-07-10 14:17:20,266 - INFO - cademycode_courses
+2024-07-10 14:17:20,266 - INFO - cademycode_courses
+2024-07-10 14:17:20,275 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,275 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,276 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,276 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,277 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,277 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,288 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,288 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,290 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,290 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,291 - INFO - cademycode_students
+2024-07-10 14:17:20,291 - INFO - cademycode_students
+2024-07-10 14:17:20,348 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,348 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,357 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,357 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,358 - INFO - test_table
+2024-07-10 14:17:20,358 - INFO - test_table
+2024-07-10 14:17:20,368 - INFO - Data from test_table:
+2024-07-10 14:17:20,368 - INFO - Data from test_table:
+2024-07-10 14:17:20,369 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,369 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,492 - INFO - Tables in the database:
+2024-07-10 14:17:20,492 - INFO - Tables in the database:
+2024-07-10 14:17:20,493 - INFO - cademycode_courses
+2024-07-10 14:17:20,493 - INFO - cademycode_courses
+2024-07-10 14:17:20,508 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,508 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,511 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,511 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,512 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,512 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,539 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,539 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,543 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,543 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,543 - INFO - cademycode_students
+2024-07-10 14:17:20,543 - INFO - cademycode_students
+2024-07-10 14:17:20,609 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,609 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,612 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,612 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,613 - INFO - test_table
+2024-07-10 14:17:20,613 - INFO - test_table
+2024-07-10 14:17:20,626 - INFO - Data from test_table:
+2024-07-10 14:17:20,626 - INFO - Data from test_table:
+2024-07-10 14:17:20,627 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,627 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,634 - INFO - No NaN values found in df_students
+2024-07-10 14:17:20,634 - INFO - No NaN values found in df_students
+2024-07-10 14:17:20,643 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,643 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,644 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,644 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,665 - INFO - df_students and df_jobs merged
+2024-07-10 14:17:20,665 - INFO - df_students and df_jobs merged
+2024-07-10 14:17:20,676 - INFO - df_courses merged to merged_df
+2024-07-10 14:17:20,676 - INFO - df_courses merged to merged_df
+2024-07-10 14:17:20,733 - INFO - Tables in the database:
+2024-07-10 14:17:20,733 - INFO - Tables in the database:
+2024-07-10 14:17:20,734 - INFO - cademycode_courses
+2024-07-10 14:17:20,734 - INFO - cademycode_courses
+2024-07-10 14:17:20,743 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,743 - INFO - Data from cademycode_courses:
+2024-07-10 14:17:20,746 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,746 - INFO -    career_path_id      career_path_name  hours_to_complete
+0               1        data scientist                 20
+1               2         data engineer                 20
+2               3          data analyst                 12
+3               4  software engineering                 25
+4               5      backend engineer                 18
+2024-07-10 14:17:20,746 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,746 - INFO - cademycode_student_jobs
+2024-07-10 14:17:20,758 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,758 - INFO - Data from cademycode_student_jobs:
+2024-07-10 14:17:20,759 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,759 - INFO -    job_id        job_category  avg_salary
+0       1           analytics       86000
+1       2            engineer      101000
+2       3  software developer      110000
+3       4            creative       66000
+4       5  financial services      135000
+2024-07-10 14:17:20,759 - INFO - cademycode_students
+2024-07-10 14:17:20,759 - INFO - cademycode_students
+2024-07-10 14:17:20,821 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,821 - INFO - Data from cademycode_students:
+2024-07-10 14:17:20,826 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,826 - INFO -    uuid             name         dob sex                                                                                                     contact_info  job_id  num_course_taken  current_career_path_id  time_spent_hrs
+0     1  Annabelle Avery  1943-07-03   F   {"mailing_address": "303 N Timber Key, Irondale, Wisconsin, 84736", "email": "annabelle_avery9376@woohoo.com"}       7                 6                       1            4.99
+1     2      Micah Rubio  1991-02-07   M                 {"mailing_address": "767 Crescent Fair, Shoals, Indiana, 37439", "email": "rubio6772@hmail.com"}       7                 5                       8            4.40
+2     3       Hosea Dale  1989-12-07   M  {"mailing_address": "P.O. Box 41269, St. Bonaventure, Virginia, 83637", "email": "hosea_dale8084@coldmail.com"}       7                 8                       8            6.74
+3     4     Mariann Kirk  1988-07-31   F             {"mailing_address": "517 SE Wintergreen Isle, Lane, Arkansas, 82242", "email": "kirk4005@hmail.com"}       6                 7                       9           12.31
+4     5  Lucio Alexander  1963-08-31   M  {"mailing_address": "18 Cinder Cliff, Doyles borough, Rhode Island, 73737", "email": "alexander9810@hmail.com"}       7                14                       3            5.64
+2024-07-10 14:17:20,826 - INFO - test_table
+2024-07-10 14:17:20,826 - INFO - test_table
+2024-07-10 14:17:20,838 - INFO - Data from test_table:
+2024-07-10 14:17:20,838 - INFO - Data from test_table:
+2024-07-10 14:17:20,840 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,840 - INFO - Empty DataFrame
+Columns: [id, name]
+Index: []
+2024-07-10 14:17:20,843 - INFO - No NaN values found in df_students
+2024-07-10 14:17:20,843 - INFO - No NaN values found in df_students
+2024-07-10 14:17:20,873 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,873 - INFO - No duplicates found in df_jobs
+2024-07-10 14:17:20,874 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,874 - INFO - Dataframes processing completed
+2024-07-10 14:17:20,883 - INFO - df_students and df_jobs merged
+2024-07-10 14:17:20,883 - INFO - df_students and df_jobs merged
+2024-07-10 14:17:20,890 - INFO - df_courses merged to merged_df
+2024-07-10 14:17:20,890 - INFO - df_courses merged to merged_df
+2024-07-10 14:17:20,922 - INFO - Running pipeline...
+2024-07-10 14:17:20,922 - INFO - Running pipeline...
+2024-07-10 14:17:20,932 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 14:17:20,932 - INFO - Row count for table 'cademycode_courses': 10
+2024-07-10 14:17:20,934 - INFO - Row count for table 'cademycode_student_jobs': 10
+2024-07-10 14:17:20,934 - INFO - Row count for table 'cademycode_student_jobs': 10
+2024-07-10 14:17:20,939 - INFO - Row count for table 'cademycode_students': 4293
+2024-07-10 14:17:20,939 - INFO - Row count for table 'cademycode_students': 4293
+2024-07-10 14:17:20,940 - INFO - Checking for updates...
+2024-07-10 14:17:20,940 - INFO - Checking for updates...
+2024-07-10 14:17:20,940 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 14:17:20,940 - INFO - Last row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 14:17:20,940 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 14:17:20,940 - INFO - Current row counts: {'cademycode_courses': 10, 'cademycode_student_jobs': 10, 'cademycode_students': 4293}
+2024-07-10 14:17:20,941 - INFO - No updates found.
+2024-07-10 14:17:20,941 - INFO - No updates found.
+2024-07-10 14:17:20,941 - INFO - No updates found in the database.
+2024-07-10 14:17:20,941 - INFO - No updates found in the database.
