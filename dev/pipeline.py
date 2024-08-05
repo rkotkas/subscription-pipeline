@@ -9,15 +9,32 @@ import sys
 
 
 def configure_logging(log_file_prefix='../', app_version='1.0.0', test_env=False):
-	# Configure logging
-	logging.basicConfig(level=logging.INFO, format=f'%(asctime)s - %(levelname)s - {app_version} - %(message)s')
-	changelog = logging.getLogger('changelog')
-	errorlog = logging.getLogger('errorlog')
-
 	# Create a formatter with timestamp
 	formatter = logging.Formatter(f'%(asctime)s - %(levelname)s - {app_version} - %(message)s')
 
+	# Get the root logger
+	root_logger = logging.getLogger()
+	root_logger.setLevel(logging.INFO)
+
+	# Remove existing handlers
+	for handler in root_logger.handlers[:]:
+		root_logger.removeHandler(handler)
+
+	# Create a console handler
+	console_handler = logging.StreamHandler()
+	console_handler.setFormatter(formatter)
+	root_logger.addHandler(console_handler)
+
+	changelog = logging.getLogger('changelog')
+	errorlog = logging.getLogger('errorlog')
+
 	if not test_env:
+		# Remove existing handlers
+		for handler in changelog.handlers[:]:
+			changelog.removeHandler(handler)
+		for handler in errorlog.handlers[:]:
+			errorlog.removeHandler(handler)
+
 		# Create file handlers and set formatter
 		changelog_handler = logging.FileHandler(os.path.join(log_file_prefix, 'changelog.log'))
 		changelog_handler.setFormatter(formatter)
@@ -31,37 +48,43 @@ def configure_logging(log_file_prefix='../', app_version='1.0.0', test_env=False
 	return changelog, errorlog
 
 
-# Database connection details
-db_url = "sqlite:///cademycode.db"
-row_counts_file = 'row_counts.json'
-
-def update_version(version_file='version.txt'):
-	# Read the current version
+def get_current_version(version_file):
 	if os.path.exists(version_file):
 		with open(version_file, 'r') as file:
 			version = file.read().strip()
 	else:
 		version = "1.0.0"
+	return version
 
-	# Split the version into major, minor, and patch
+
+def update_version(version, part='patch'):
 	major, minor, patch = map(int, version.split('.'))
 
-	# Increment the patch number
-	patch += 1
+	if part == 'major':
+		major += 1
+		minor = 0
+		patch = 0
+	elif part == 'minor':
+		minor += 1
+		patch = 0
+	else:  # patch
+		patch += 1
 
 	# Update the version number
 	new_version = f"{major}.{minor}.{patch}"
 
 	# Write the new version to the file
-	with open(version_file, 'w') as file:
+	with open('../version.txt', 'w') as file:
 		file.write(new_version)
 
 	return new_version
 
+def log_version_change(changelog, version_file):
+	# Read the current version
+	current_version = get_current_version(version_file)
 
-def log_version_change(changelog, version_file='version.txt'):
 	# Update the version
-	new_version = update_version(version_file)
+	new_version = update_version(current_version)
 
 	# Log the version change
 	changelog.info(f"Version {new_version}: Updates applied.")
@@ -80,6 +103,7 @@ def run_tests():
 	tests = loader.discover(start_dir=test_dir)
 	testRunner = unittest.TextTestRunner()
 	result = testRunner.run(tests)
+	print("TESTID")
 	return result.wasSuccessful()
 
 
@@ -99,13 +123,11 @@ def get_row_counts(engine):
 			try:
 				result = connection.execute(text(f"SELECT COUNT(*) FROM {table}")).scalar()
 				row_counts[table] = result
-				changelog.info(f"Row count for table '{table}': {result}")
 			except Exception as e:
 				changelog.error(f"Error retrieving row count for table '{table}': {str(e)}")
 		return row_counts
 
 
-# Function to initialize row counts to 1 for all tables
 def initialize_row_counts(engine, file_path):
 	table_names = get_table_names(engine)
 	row_counts = {table: 1 for table in table_names}
@@ -115,12 +137,12 @@ def initialize_row_counts(engine, file_path):
 	return row_counts
 
 
-# Function to check for database updates based on row counts
 def check_for_updates(engine, last_row_counts, changelog, current_row_counts=None):
+	changelog.info("Checking for updates...")
+
 	if current_row_counts is None:
 		current_row_counts = get_row_counts(engine)
 
-	changelog.info("Checking for updates...")
 	changelog.info(f"Last row counts: {last_row_counts}")
 	changelog.info(f"Current row counts: {current_row_counts}")
 
@@ -131,13 +153,11 @@ def check_for_updates(engine, last_row_counts, changelog, current_row_counts=Non
 	return False
 
 
-# Function to save row counts to a JSON file
 def save_row_counts(row_counts, file_path):
     with open(file_path, 'w') as file:
         json.dump(row_counts, file)
 
 
-# Function to load row counts from a JSON file
 def load_row_counts(file_path):
     if os.path.exists(file_path):
         with open(file_path, 'r') as file:
@@ -146,24 +166,22 @@ def load_row_counts(file_path):
         return {}
 
 
-# Function to get dataframes for all tables
 def get_dataframes(engine, changelog):
 	table_names = get_table_names(engine)
 	dataframes = {}
 	if not table_names:
 		changelog.warning("No tables found in the database.")
 	else:
-		changelog.info("Tables in the database:")
+		#changelog.info("Tables in the database:")
 		for table_name in table_names:
-			changelog.info(table_name)
+			#changelog.info(table_name)
 			df = pd.read_sql_table(table_name, engine)
 			dataframes[table_name] = df
-			changelog.info(f"Data from {table_name}:")
-			changelog.info(df.head().to_string())  # Convert DataFrame head to string
+			#changelog.info(f"Data from {table_name}:")
+			#changelog.info(df.head().to_string())  # Convert DataFrame head to string
 	return dataframes
 
 
-# remove NaN and duplictes
 def process_dataframes(dataframes, changelog):
 	# Clean and process df_students
 	df_students = dataframes.get('cademycode_students', pd.DataFrame())
@@ -287,22 +305,36 @@ def merge_df(df_students, df_jobs, df_courses, changelog):
 def main():
 	global changelog, errorlog
 
-	version_file = 'version.txt'
-	new_version = update_version(version_file)
-	changelog, errorlog = configure_logging(app_version=new_version)
+	version_file = '../version.txt'
+	row_counts_file = '../row_counts.json'
+	db_url = 'sqlite:///../cademycode_updated.db'
 
+	current_version = get_current_version(version_file)
+	changelog, errorlog = configure_logging(app_version=current_version)
 	engine = create_db_engine(db_url)
+
+	changelog.info(f"Starting script with version {current_version}")
 
 	# Get row counts
 	if not os.path.exists(row_counts_file) or os.path.getsize(row_counts_file) == 0:
 		last_row_counts = initialize_row_counts(engine, row_counts_file)
 	else:
 		last_row_counts = load_row_counts(row_counts_file)
+
 	current_row_counts = get_row_counts(engine)
 
 	try:
 		if check_for_updates(engine, last_row_counts, changelog, current_row_counts):
-			changelog.info("Updates found. Processing data...")
+			changelog.info("Updates found.")
+
+			# Update the version
+			new_version = update_version(current_version)
+
+			# Reconfigure logging with the new version
+			changelog, errorlog = configure_logging(app_version=new_version)
+			changelog.info(f"Version updated. New version: {new_version}")
+
+			changelog.info("Processing data...")
 
 			# Get DataFrames
 			dataframes = get_dataframes(engine, changelog)
@@ -322,6 +354,7 @@ def main():
 			merged_df.to_csv('merged_data.csv', index=False)
 
 			changelog.info("Data processing and merging completed successfully.")
+
 
 		else:
 			changelog.info("No updates found.")
