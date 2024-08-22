@@ -187,6 +187,7 @@ class TestPipelineFunctions(unittest.TestCase):
 		dataframes = get_dataframes(self.engine, mock_getLogger)
 		df_students, df_jobs, df_courses = process_dataframes(dataframes, mock_getLogger)
 		# Check data types of columns
+		self.assertEqual(df_students['dob'].dtype, 'datetime64[ns]', "Column 'dob' should have datetime data type")
 		self.assertIn(df_students['job_id'].dtype, ['int32', 'int64'], "Column 'job_id' should have int64 data type")
 		self.assertIn(df_students['num_course_taken'].dtype, ['int32', 'int64'], "Column 'num_course_taken' should have int64 data type")
 		self.assertEqual(df_students['time_spent_hrs'].dtype, 'float64', "Column 'time_spent_hrs' should have float64 data type")

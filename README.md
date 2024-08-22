@@ -16,7 +16,7 @@ CademyCode Subscription Pipeline is a Python-based data processing pipeline desi
 
 CademyCode Subscription Pipeline automates the processing of educational data. It reads from a SQLite database, cleans and merges the data, updates version information, and logs all steps. The pipeline is designed to handle data related to students, their jobs, and courses they've taken.
 
-- Used Jupyter notebook in the `\dev` folder for the initial exploration
+- Used Jupyter notebook for the initial exploration
 - SQLAlchemy to establish a database connection
 - Initial run on database `cademycode.db` for the development. To test it on the updated database, change database name in the pipeline.py to `cademycode_updated.db`
 
@@ -90,6 +90,7 @@ Files:
 ### dev
 - pipeline.py: gets data from database `cademycode.db`, process it, updates database, merges final data into a CSV
 - merged_data.csv: automatically generated merged dataframes after running `pipeline.py`
+- initial_exploration.ipynb: initial data exploration
 
 ### build
 - pipeline.py: copied from `\dev`

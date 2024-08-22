@@ -1,6 +1,6 @@
 import pandas as pd
 import sqlalchemy
-from sqlalchemy import create_engine, text, inspect, MetaData, Table, Column, Integer, String, Float
+from sqlalchemy import create_engine, text, inspect, MetaData, Table, Column, Integer, String, Float, DateTime
 import json
 import logging
 import os
@@ -188,6 +188,7 @@ def process_dataframes(dataframes, changelog):
 	df_jobs = dataframes.get('cademycode_student_jobs', pd.DataFrame())
 	df_courses = dataframes.get('cademycode_courses', pd.DataFrame())
 
+	df_students['dob'] = pd.to_datetime(df_students['dob'], errors='coerce')
 	df_students['job_id'] = pd.to_numeric(df_students['job_id'], errors='coerce')
 	df_students['num_course_taken'] = pd.to_numeric(df_students['num_course_taken'], errors='coerce')
 	df_students['time_spent_hrs'] = pd.to_numeric(df_students['time_spent_hrs'], errors='coerce')
@@ -204,6 +205,7 @@ def process_dataframes(dataframes, changelog):
 	else:
 		changelog.info("No NaN values found in df_students")
 
+	df_students_clean['dob'] = df_students_clean['dob'].astype('datetime64[ns]')
 	df_students_clean['job_id'] = df_students_clean['job_id'].astype(int)
 	df_students_clean['num_course_taken'] = df_students_clean['num_course_taken'].astype(int)
 	df_students_clean['time_spent_hrs'] = df_students_clean['time_spent_hrs'].astype(float)
@@ -234,7 +236,7 @@ def update_db_tables(engine, df_students, df_jobs, df_courses):
 		metadata,
 		Column('uuid', Integer, primary_key=True),
 		Column('name', String),
-		Column('dob', String),
+		Column('dob', DateTime),
 		Column('sex', String),
 		Column('contact_info', String),
 		Column('job_id', Integer),
