@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install Python dependencies
+pip install -r requirements.txt
+
 # Run tests
 cd tests
 python tests.py
