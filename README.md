@@ -34,18 +34,18 @@ Key components:
 
 ### Prerequisites
 
-Ensure you have the following installed:
+1. Ensure you have the following installed:
 
 - Python 3.8+
 - SQLite (optional, if not using `sqlite3` command-line tool)
 
-Clone the repository:
+2. Clone the repository:
 
     ```bash
     git clone https://github.com/rkotkas/subscription-pipeline
     ```
 
-Navigate to the project directory:
+3. Navigate to the project directory:
 
     ```bash
     cd subscription-pipeline
@@ -53,9 +53,9 @@ Navigate to the project directory:
 
 ### Automated Setup
 
-The `script.sh` file automates the setup and execution of the pipeline. It installs necessary dependencies and runs the pipeline.
+- The `script.sh` file automates the setup and execution of the pipeline. It installs necessary dependencies and runs the pipeline.
 
-Run the automated setup script:
+- Run the automated setup script:
 
 	```bash
 	./script.sh
