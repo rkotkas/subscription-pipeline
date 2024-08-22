@@ -16,7 +16,7 @@ CademyCode Subscription Pipeline is a Python-based data processing pipeline desi
 
 CademyCode Subscription Pipeline automates the processing of educational data. It reads from a SQLite database, cleans and merges the data, updates version information, and logs all steps. The pipeline is designed to handle data related to students, their jobs, and courses they've taken.
 
-- Used Jupyter notebook in the /dev folder for the initial exploration
+- Used Jupyter notebook in the `\dev` folder for the initial exploration
 - SQLAlchemy to establish a database connection
 - Initial run on database `cademycode.db` for the development. To test it on the updated database, change database name in the pipeline.py to `cademycode_updated.db`
 
@@ -63,7 +63,7 @@ Ensure you have the following installed:
 
 ## Usage
 
-The pipeline script (`pipeline.py`) can be run using the bash script (`script.sh`) to process the data and update the database. Script.sh will create the /build directory, copy pipeline.py file from dev directory and run the file. Here’s how to use it:
+The pipeline script `pipeline.py` can be run using the bash script `script.sh` to run tests, process the data and update the database. Script.sh first runs the unittests in `tests.py`, then creates the `\build` directory, copy `pipeline.py`  from `\dev` directory and run `pipeline.py`. Here’s how to use it:
 
 ### Running the Pipeline
 
@@ -73,7 +73,8 @@ The pipeline script (`pipeline.py`) can be run using the bash script (`script.sh
 
 ## Folder Structure
 
-- **script.sh**: bash script to move files to `/build` and run the data processor 
+Files:
+- **script.sh**: bash script to move files to `\build` and run the data processor 
 - **requirements.txt**
 - **version.txt**: created after the first run, contains current version and is updated when updates found in the database
 - **row_counts.json**: holds the current row count of the tables
@@ -84,17 +85,20 @@ The pipeline script (`pipeline.py`) can be run using the bash script (`script.sh
     - `cademycode_student_jobs`
     - `cademycode_courses`
 - **cademycode_updated.db**: updated version of `cademycode.db` for testing the update process
+- **README.md**
 
 ### dev
-- pipeline.py: gets data from database (`cademycode.db`), process it, updates database, merges final data into a CSV
+- pipeline.py: gets data from database `cademycode.db`, process it, updates database, merges final data into a CSV
 - merged_data.csv: automatically generated merged dataframes after running `pipeline.py`
 
 ### build
-- pipeline.py: copied from /dev
+- pipeline.py: copied from `\dev`
 - merged_data.csv: automatically generated merged dataframes after running `pipeline.py`
 
-### test
-- tests.py: unitests for pipeline.py
+### tests
+- tests.py: unitests for `pipeline.py`
+- testlog.log: log the info from unitests
 
 
 ## Testing
+The unittests (`tests.py`) run before the code (`pipeline.py`)

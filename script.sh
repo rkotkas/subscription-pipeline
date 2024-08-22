@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Run tests
+cd tests
+python tests.py
+cd ..
+
 # Create the build directory
 mkdir -p build
 

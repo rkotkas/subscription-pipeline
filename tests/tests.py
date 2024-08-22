@@ -16,7 +16,7 @@ test_logger = logging.getLogger('testlog')
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
 # Create file handler and set formatter
-test_handler = logging.FileHandler('../testlog.log')
+test_handler = logging.FileHandler('./testlog.log')
 test_handler.setFormatter(formatter)
 
 # Add handler to the logger
@@ -32,7 +32,7 @@ from pipeline import create_db_engine, get_table_names, get_dataframes, \
 class TestPipelineFunctions(unittest.TestCase):
 
 	def setUp(self):
-		self.db_url = "sqlite:///../dev/cademycode.db"
+		self.db_url = "sqlite:///../cademycode.db"
 		self.engine = create_db_engine(self.db_url)
 		with self.engine.connect() as connection:
 			connection.execute(text("CREATE TABLE IF NOT EXISTS test_table (id INTEGER PRIMARY KEY, name TEXT)"))

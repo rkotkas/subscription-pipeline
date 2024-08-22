@@ -307,7 +307,7 @@ def main():
 
 	version_file = '../version.txt'
 	row_counts_file = '../row_counts.json'
-	db_url = 'sqlite:///../cademycode_updated.db'
+	db_url = 'sqlite:///../cademycode.db'
 
 	current_version = get_current_version(version_file)
 	changelog, errorlog = configure_logging(app_version=current_version)
